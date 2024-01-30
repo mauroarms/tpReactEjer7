@@ -1,6 +1,6 @@
-const EmpleadoAvatar = ({ empleados }) => {
+const EmpleadoAvatar = ({ empleadoFoto }) => {
 
-  return <img src={empleados[0].pic} alt="empleado1" className="avatarEmpleado"/>;
+  return <img src={empleadoFoto} alt={empleadoFoto} className="avatarEmpleado"/>;
 };
 
 export default EmpleadoAvatar;

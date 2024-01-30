@@ -5,21 +5,11 @@ import ListGroup from 'react-bootstrap/ListGroup';
 const EmpleadoList = ({ empleados }) => {
   return (
     <ListGroup>
-      <ListGroup.Item>
-        <EmpleadoRow empleados={empleados}></EmpleadoRow>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <EmpleadoRow empleados={empleados}></EmpleadoRow>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <EmpleadoRow empleados={empleados}></EmpleadoRow>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <EmpleadoRow empleados={empleados}></EmpleadoRow>
-      </ListGroup.Item>
-      <ListGroup.Item>
-        <EmpleadoRow empleados={empleados}></EmpleadoRow>
-      </ListGroup.Item>
+      {empleados.map((emp, i) => (
+        <ListGroup.Item key={i}>
+          <EmpleadoRow emp={emp}></EmpleadoRow>
+        </ListGroup.Item>
+      ))}
     </ListGroup>
   );
 };

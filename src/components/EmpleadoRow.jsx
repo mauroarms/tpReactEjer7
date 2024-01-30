@@ -1,17 +1,16 @@
 import React from "react";
 import EmpleadoAvatar from "./EmpleadoAvatar";
 
-const EmpleadoRow = ({ empleados }) => {
+const EmpleadoRow = ({ emp }) => {
   return (
     <div className="rowEmpleados ">
-      <EmpleadoAvatar empleados={empleados}></EmpleadoAvatar>
-
+      <EmpleadoAvatar empleadoFoto={emp.pic}></EmpleadoAvatar>
       <div className="datosEmpleados">
-        <h3>{empleados[0].fullName}</h3>
+        <h3>{emp.fullName}</h3>
         <div className="infoEmpleado">
-          <span className="badge text-bg-primary">{empleados[0].title}</span>
+          <span className="badge text-bg-primary me-3">{emp.title}</span>
 
-          <span className="badge text-bg-info">{empleados[0].department}</span>
+          <span className="badge text-bg-info">{emp.department}</span>
         </div>
       </div>
     </div>
