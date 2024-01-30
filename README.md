@@ -1,4 +1,4 @@
-# Ejercicio 6 del Trabajo Práctico de React ⚛ RollingCodeSchool <>
+# Ejercicio 7 del Trabajo Práctico de React ⚛ RollingCodeSchool <>
 
 En este programa se creó una un componente lista que es a su vez una lista de otros componentes react... en este caso es de una lista de empleados
 
