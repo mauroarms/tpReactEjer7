@@ -4,7 +4,7 @@ En este programa se creó una un componente lista que es a su vez una lista de o
 
 # Vista Previa
 
-
+![image](https://github.com/mauroarms/tpReactEjer7/assets/95541436/4d1b1f83-c8c3-4433-abab-87c04aaa2a38)
 
 ## Tecnologias
 
