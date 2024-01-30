@@ -1,14 +1,21 @@
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
-function App() {
+import "./app.css";
+import Footer from "./components/Footer";
+import EmpleadoList from "./components/EmpleadoList";
+import empleadosModif from "./arrayEmpleados";
 
+function App() {
   return (
     <>
-      <Container>
-        <h1>Hola Mundo</h1>
+      <Container className="contenido">
+        <div className="listaEmpleados">
+          <EmpleadoList empleados={empleadosModif}></EmpleadoList>
+        </div>
       </Container>
+      <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
