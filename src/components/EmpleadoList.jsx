@@ -3,6 +3,7 @@ import EmpleadoRow from "./EmpleadoRow";
 import ListGroup from 'react-bootstrap/ListGroup';
 
 const EmpleadoList = ({ empleados }) => {
+  
   return (
     <ListGroup>
       {empleados.map((emp, i) => (
