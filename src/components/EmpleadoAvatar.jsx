@@ -24,7 +24,7 @@ const EmpleadoAvatar = ({ emp}) => {
   ]
 
 
-  return <img src={arrayImg[emp.id]} alt={emp.id} className="avatarEmpleado"/>;
+  return <img src={arrayImg[emp.id-1]} alt={emp.id} className="avatarEmpleado"/>;
 };
 
 export default EmpleadoAvatar;
