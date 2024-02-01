@@ -4,7 +4,7 @@ import EmpleadoAvatar from "./EmpleadoAvatar";
 const EmpleadoRow = ({ emp }) => {
   return (
     <div className="rowEmpleados ">
-      <EmpleadoAvatar empleadoFoto={emp.pic}></EmpleadoAvatar>
+      <EmpleadoAvatar emp={emp}></EmpleadoAvatar>
       <div className="datosEmpleados">
         <h3>{emp.fullName}</h3>
         <div className="infoEmpleado">
