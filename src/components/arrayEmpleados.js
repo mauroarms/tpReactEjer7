@@ -65,7 +65,7 @@ let empleados = [
 ];
 
 let empleadosModif = empleados.map((empleado) => {
-  empleado.pic = "../src/assets/" + empleado.pic;
+  empleado.pic = '../../src/assets/' + empleado.pic;
   return empleado;
 });
 

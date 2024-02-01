@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import "./app.css";
 import Footer from "./components/Footer";
 import EmpleadoList from "./components/EmpleadoList";
-import empleadosModif from "./arrayEmpleados";
+import empleadosModif from "./components/arrayEmpleados";
 
 function App() {
   return (
