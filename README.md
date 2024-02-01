@@ -1,10 +1,10 @@
-# Ejercicio 6 del Trabajo Práctico de React ⚛ RollingCodeSchool <>
+# Ejercicio 7 del Trabajo Práctico de React ⚛ RollingCodeSchool <>
 
 En este programa se creó una un componente lista que es a su vez una lista de otros componentes react... en este caso es de una lista de empleados
 
 # Vista Previa
 
-
+![image](https://github.com/mauroarms/tpReactEjer7/assets/95541436/4d1b1f83-c8c3-4433-abab-87c04aaa2a38)
 
 ## Tecnologias
 
