@@ -64,9 +64,4 @@ let empleados = [
   },
 ];
 
-let empleadosModif = empleados.map((empleado) => {
-  empleado.pic = 'assets/' + empleado.pic;
-  return empleado;
-});
-
-export default empleadosModif;
+export default empleados;

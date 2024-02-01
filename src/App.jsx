@@ -3,14 +3,14 @@ import "./app.css";
 import Container from "react-bootstrap/Container";
 import Footer from "./components/Footer";
 import EmpleadoList from "./components/EmpleadoList";
-import empleadosModif from "./arrayEmpleados";
+import empleados from "./arrayEmpleados";
 
 function App() {
   return (
     <>
       <Container className="contenido">
         <div className="listaEmpleados">
-          <EmpleadoList empleados={empleadosModif}></EmpleadoList>
+          <EmpleadoList empleados={empleados}></EmpleadoList>
         </div>
       </Container>
       <Footer></Footer>
